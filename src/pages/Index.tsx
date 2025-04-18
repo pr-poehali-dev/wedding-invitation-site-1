@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import WeddingHeader from "@/components/WeddingHeader";
 import CouplePhoto from "@/components/CouplePhoto";
 import WeddingDetails from "@/components/WeddingDetails";
+import DressCode from "@/components/DressCode";
 import InvitationFooter from "@/components/InvitationFooter";
 import SlavicOrnament from "@/components/SlavicOrnament";
 import { CalendarDays } from "lucide-react";
@@ -31,6 +32,8 @@ const Index = () => {
         </div>
         
         <WeddingDetails />
+        
+        <DressCode />
         
         <div className="text-center mt-12 mb-8">
           <Button 
