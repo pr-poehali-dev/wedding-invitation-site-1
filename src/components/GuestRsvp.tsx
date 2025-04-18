@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Checkbox } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 
@@ -55,7 +55,7 @@ const GuestRsvp = () => {
         <Card className="bg-slavic-white border-2 border-slavic-red overflow-hidden">
           <CardContent className="p-6 text-center">
             <div className="flex items-center justify-center gap-2 mb-4 text-slavic-red">
-              <Checkbox className="h-8 w-8" />
+              <CheckCircle className="h-8 w-8" />
             </div>
             <h3 className="text-2xl font-bold text-slavic-red mb-4">Спасибо за ваш ответ!</h3>
             <p className="text-lg">
