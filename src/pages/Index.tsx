@@ -3,6 +3,7 @@ import WeddingHeader from "@/components/WeddingHeader";
 import CouplePhoto from "@/components/CouplePhoto";
 import WeddingDetails from "@/components/WeddingDetails";
 import DressCode from "@/components/DressCode";
+import GuestRsvp from "@/components/GuestRsvp";
 import InvitationFooter from "@/components/InvitationFooter";
 import SlavicOrnament from "@/components/SlavicOrnament";
 import { CalendarDays } from "lucide-react";
@@ -34,6 +35,8 @@ const Index = () => {
         <WeddingDetails />
         
         <DressCode />
+        
+        <GuestRsvp />
         
         <div className="text-center mt-12 mb-8">
           <Button 
