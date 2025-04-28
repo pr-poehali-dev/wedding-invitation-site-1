@@ -8,8 +8,8 @@ const CouplePhoto = () => {
           <div className="relative pt-6 px-6 pb-6 bg-slavic-white">
             <div className="aspect-[4/5] bg-slavic-beige overflow-hidden">
               <img 
-                src="https://cdn.poehali.dev/files/2c7279de-f279-464b-b227-43559488d521.jpg" 
-                alt="Пара в славянских костюмах у колодца" 
+                src="https://cdn.poehali.dev/files/d5370dfd-92aa-4da1-9d4f-1c2243f80b15.jpg" 
+                alt="Пара в славянских свадебных костюмах на природе" 
                 className="w-full h-full object-cover"
               />
             </div>
